@@ -1,168 +1,159 @@
-<h2 style="text-align:center;">Our Plans</h2>
-
-<table style="
-  width:100%;
-  max-width:1000px;
-  margin:30px auto;
-  border-collapse:separate;
-  border-spacing:20px;
-">
-  <tr>
-
-    <!-- Free Trial -->
-    <td style="width:33%; vertical-align:top;">
-      <div style="
-        border:1px solid #ddd;
-        padding:20px;
-        border-radius:12px;
-        text-align:center;
-        background:#111;
-        color:white;
-      ">
-        <h3>Free Trial</h3>
-        <p style="font-size:24px;font-weight:bold;">$0</p>
-        <p><b>7 Days</b></p>
-        <p>SinglePlayer Games</p>
-        <p>Text Chat Only</p>
-        <p>Run Locally on Your PC</p>
-        <p><small>Minimum: RTX 3060 or higher</small></p>
-
-        <a href="https://drive.google.com/uc?export=download&id=1m7RvPdAcBBTiqdL8OxOB4_yEZsXxDp7m"
-           target="_blank"
-           style="
-             display:inline-flex;
-             align-items:center;
-             gap:8px;
-             margin-top:15px;
-             padding:10px 18px;
-             background:#1a73e8;
-             color:white;
-             text-decoration:none;
-             border-radius:6px;
-             font-weight:bold;
-           ">
-           <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Google_Drive_logo.png"
-                style="width:20px;height:20px;">
-           Download
-        </a>
-
-        <p style="
-          margin-top:12px;
-          font-size:13px;
-          color:#9fd3ff;
-          font-weight:bold;
-          animation: aiPulse 2s infinite;
-        ">
-          Train Your Own AI Model
-        </p>
-      </div>
-    </td>
-
-    <!-- Standard -->
-    <td style="width:33%; vertical-align:top;">
-      <div style="
-        border:2px solid #ff4da6;
-        padding:20px;
-        border-radius:12px;
-        text-align:center;
-        background:#111;
-        color:white;
-        box-shadow:0 0 15px rgba(255,77,166,0.8);
-        position:relative;
-      ">
-        <div style="
-          position:absolute;
-          top:-12px;
-          left:50%;
-          transform:translateX(-50%);
-          background:#ff4da6;
-          color:white;
-          padding:4px 12px;
-          border-radius:20px;
-          font-size:12px;
-          font-weight:bold;
-        ">
-          Most Popular
-        </div>
-
-        <h3>Standard</h3>
-        <p style="font-size:24px;font-weight:bold;">$14.99</p>
-        <p><b>SinglePlayer / Multiplayer</b></p>
-        <p>Text Chat & Voice Chat</p>
-        <p>Customize AI Characters</p>
-        <p>Run on Our Server</p>
-        <p><small>Minimum: Stable Internet Connection</small></p>
-
-        <!-- NOWPayments Standard -->
-        <div style="margin-top:18px;">
-          <a href="https://nowpayments.io/payment/?iid=4335074173&source=button"
-             target="_blank" rel="noreferrer noopener">
-            <img src="https://nowpayments.io/images/embeds/payment-button-black.svg"
-                 style="width:180px;">
-          </a>
-        </div>
-      </div>
-    </td>
-
-    <!-- PRO+ -->
-    <td style="width:33%; vertical-align:top;">
-      <div style="
-        border:2px solid #ff3cad;
-        padding:20px;
-        border-radius:12px;
-        text-align:center;
-        background:#111;
-        color:white;
-        position:relative;
-        overflow:hidden;
-      ">
-
-        <div style="
-          position:absolute;
-          top:12px;
-          right:-40px;
-          background:#ff0000;
-          color:white;
-          padding:6px 50px;
-          transform:rotate(45deg);
-          font-weight:bold;
-          font-size:14px;
-          box-shadow:0 0 8px rgba(255,0,0,0.8);
-        ">
-          18+
-        </div>
-
-        <h3>PRO+</h3>
-        <p style="font-size:12px;color:#ffaaaa;margin-top:-5px;margin-bottom:10px;">
-          Adults Only
-        </p>
-
-        <p style="font-size:24px;font-weight:bold;">$29.99</p>
-        <p><b>SinglePlayer / Multiplayer</b></p>
-        <p>Text Chat & Voice Chat</p>
-        <p>NSFW Violent & Sexual Communication</p>
-        <p>Customizable AI Characters</p>
-        <p>Run on Our Server</p>
-        <p><small>Minimum: Stable Internet Connection</small></p>
-
-        <!-- NOWPayments PRO+ -->
-        <div style="margin-top:18px;">
-          <a href="https://nowpayments.io/payment/?iid=6155700773&source=button"
-             target="_blank" rel="noreferrer noopener">
-            <img src="https://nowpayments.io/images/embeds/payment-button-black.svg"
-                 style="width:180px;">
-          </a>
-        </div>
-      </div>
-    </td>
-
-  </tr>
-</table>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Plans</title>
 <style>
-@keyframes aiPulse {
-  0% { opacity:.6; text-shadow:0 0 2px rgba(159,211,255,.4); }
-  50% { opacity:1; text-shadow:0 0 8px rgba(159,211,255,.9); }
-  100% { opacity:.6; text-shadow:0 0 2px rgba(159,211,255,.4); }
-}
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+  }
+
+  h2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .pricing-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .plan-card {
+    flex: 1 1 300px; /* responsive card width */
+    background: #222;
+    border-radius: 12px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    min-width: 250px;
+  }
+
+  .plan-card h3 {
+    margin-top: 0;
+  }
+
+  .plan-card .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .plan-card .badge {
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ff4da6;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .plan-card .badge.age {
+    right: -30px;
+    top: 10px;
+    left: auto;
+    transform: rotate(45deg);
+    background: red;
+    color: white;
+    padding: 5px 30px;
+    font-size: 14px;
+  }
+
+  .plan-card p {
+    margin: 5px 0;
+  }
+
+  .btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 18px;
+    background: #1a73e8;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+
+  @keyframes aiPulse {
+    0% { opacity:.6; text-shadow:0 0 2px rgba(159,211,255,.4); }
+    50% { opacity:1; text-shadow:0 0 8px rgba(159,211,255,.9); }
+    100% { opacity:.6; text-shadow:0 0 2px rgba(159,211,255,.4); }
+  }
+
+  .ai-note {
+    margin-top: 12px;
+    font-size: 13px;
+    color: #9fd3ff;
+    font-weight: bold;
+    animation: aiPulse 2s infinite;
+  }
+
+  @media screen and (max-width: 800px) {
+    .pricing-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
 </style>
+</head>
+<body>
+
+<h2>Our Plans</h2>
+
+<div class="pricing-container">
+  <!-- Free Trial -->
+  <div class="plan-card free">
+    <h3>Free Trial</h3>
+    <p class="price">$0</p>
+    <p><b>7 Days</b></p>
+    <p>SinglePlayer Games</p>
+    <p>Text Chat Only</p>
+    <p>Run Locally on Your PC</p>
+    <p><small>Minimum: RTX 3060 or higher</small></p>
+    <a href="https://drive.google.com/uc?export=download&id=1m7RvPdAcBBTiqdL8OxOB4_yEZsXxDp7m" class="btn">Download</a>
+    <p class="ai-note">Train Your Own AI Model</p>
+  </div>
+
+  <!-- Standard -->
+  <div class="plan-card standard">
+    <div class="badge">Most Popular</div>
+    <h3>Standard</h3>
+    <p class="price">$14.99</p>
+    <p><b>SinglePlayer / Multiplayer</b></p>
+    <p>Text Chat & Voice Chat</p>
+    <p>Customize AI Characters</p>
+    <p>Run on Our Server</p>
+    <p><small>Minimum: Stable Internet Connection</small></p>
+    <a href="https://nowpayments.io/payment/?iid=4335074173&source=button" class="btn">Pay Now</a>
+  </div>
+
+  <!-- PRO+ -->
+  <div class="plan-card pro">
+    <div class="badge age">18+</div>
+    <h3>PRO+</h3>
+    <p class="price">$29.99</p>
+    <p><b>SinglePlayer / Multiplayer</b></p>
+    <p>Text Chat & Voice Chat</p>
+    <p>NSFW Violent & Sexual Communication</p>
+    <p>Customizable AI Characters</p>
+    <p>Run on Our Server</p>
+    <p><small>Minimum: Stable Internet Connection</small></p>
+    <a href="https://nowpayments.io/payment/?iid=6155700773&source=button" class="btn">Pay Now</a>
+  </div>
+</div>
+
+</body>
+</html>
